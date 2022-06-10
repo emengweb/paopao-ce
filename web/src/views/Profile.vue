@@ -31,7 +31,7 @@
                 </div>
             </template>
             <n-tabs class="profile-tabs-wrap" animated>
-                <n-tab-pane name="post" tab="泡泡"> </n-tab-pane>
+                <n-tab-pane name="post" tab="动态"> </n-tab-pane>
                 <!-- <n-tab-pane name="comment" tab="评论"> </n-tab-pane> -->
             </n-tabs>
             <div v-if="loading" class="skeleton-wrap">
