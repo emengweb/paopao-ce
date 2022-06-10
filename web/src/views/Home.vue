@@ -50,7 +50,7 @@ const page = ref(+(route.query.p as string) || 1);
 const pageSize = ref(20);
 const totalPage = ref(0);
 const title = computed(() => {
-    let t = '泡泡广场';
+    let t = '广场';
 
     if (route.query && route.query.q) {
         if (route.query.t && route.query.t === 'tag') {
