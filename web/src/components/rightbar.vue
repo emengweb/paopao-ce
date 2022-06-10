@@ -36,32 +36,21 @@
             </n-spin>
         </n-card>
         <n-card class="copyright-wrap" embedded :bordered="false" size="small">
-            <div class="copyright">&copy; 2022 PaoPao.Info</div>
-            <div class="copyright">
-                <a
-                    href="https://beian.miit.gov.cn/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="beian-link"
-                >
-                    沪ICP备2020036525号-5
-                </a>
-            </div>
+            <div class="copyright">&copy; 2022 UIFav.com</div>
             <div>
                 <n-space>
                     <a
-                        href="https://www.rocs.me"
+                        href="https://www.ued.cat"
                         target="_blank"
                         class="hash-link"
-                        >Roc's Me</a
+                        >UED.Cat 设计师导航</a
                     >
                     <a
-                        href="https://www.rocboss.com"
+                        href="https://github.com/rocboss/paopao-ce"
                         target="_blank"
                         class="hash-link"
+                        >PaoPao Github</a
                     >
-                        ROCBOSS开源社区
-                    </a>
                 </n-space>
             </div>
         </n-card>
